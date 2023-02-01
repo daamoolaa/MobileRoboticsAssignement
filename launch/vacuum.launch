@@ -1,3 +1,0 @@
-<launch>
-    <node pkg= "turtledamola3" type = "vacuumCleaner.py" name = "VacuumCleaner" output = "screen"></node>
-</launch>

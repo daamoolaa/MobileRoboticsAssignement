@@ -19,8 +19,8 @@ def navigate():
     rospy.Subscriber("/turtle1/pose", Pose, pose_callback)
 
     # Set the goal position for the turtle
-    goal_x = 8
-    goal_y = 8
+    goal_x = 4
+    goal_y = 6
 
     # Control loop to move turtle towards goal
     while not rospy.is_shutdown():
