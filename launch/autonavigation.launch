@@ -1,0 +1,3 @@
+<launch>
+    <node pkg= "turtledamola3" type = "autoNavigation3.py" name = "autonavigation" output = "screen"></node>
+</launch>

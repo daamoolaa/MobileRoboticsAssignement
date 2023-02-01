@@ -1,0 +1,3 @@
+<launch>
+    <node pkg= "turtledamola3" type = "avoidWall3.py" name = "WallAvoidance" output = "screen"></node>
+</launch>
